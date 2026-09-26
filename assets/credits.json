@@ -1,0 +1,134 @@
+{
+  "hero-rizos": {
+    "src": "assets/img/hero-rizos.webp",
+    "title": "After Hair Coloring",
+    "creator": "PSDESIRE - photoshopdesire.com",
+    "creator_url": "https://www.flickr.com/photos/145706714@N04",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/145706714@N04/37572873440",
+    "source": "flickr"
+  },
+  "rizos-lado": {
+    "src": "assets/img/rizos-lado.webp",
+    "title": "How to Style Curly Hair",
+    "creator": "Stacie Stacie Stacie",
+    "creator_url": "https://www.flickr.com/photos/35754040@N04",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/35754040@N04/8537684061",
+    "source": "flickr"
+  },
+  "recogido": {
+    "src": "assets/img/recogido.webp",
+    "title": "How to Style Curly Hair",
+    "creator": "Stacie Stacie Stacie",
+    "creator_url": "https://www.flickr.com/photos/35754040@N04",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/35754040@N04/8537684081",
+    "source": "flickr"
+  },
+  "sillones": {
+    "src": "assets/img/sillones.webp",
+    "title": "Pro Touch",
+    "creator": "Phalinn Ooi",
+    "creator_url": "https://www.flickr.com/photos/17868205@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/17868205@N00/8033045968",
+    "source": "flickr"
+  },
+  "local-plantas": {
+    "src": "assets/img/local-plantas.webp",
+    "title": "Hair salon was nice",
+    "creator": "ravik694",
+    "creator_url": "https://www.flickr.com/photos/66621323@N00",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/66621323@N00/458327210",
+    "source": "flickr"
+  },
+  "productos": {
+    "src": "assets/img/productos.webp",
+    "title": "Spa Utopia Vancouver - Hair Salon",
+    "creator": "ppacificvancouver",
+    "creator_url": "https://www.flickr.com/photos/46246687@N05",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/46246687@N05/5454624858",
+    "source": "flickr"
+  },
+  "tijeras": {
+    "src": "assets/img/tijeras.webp",
+    "title": "Salon Shots",
+    "creator": "Photos by Lina",
+    "creator_url": "https://www.flickr.com/photos/21791362@N06",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/21791362@N06/3994273442",
+    "source": "flickr"
+  },
+  "cepillo": {
+    "src": "assets/img/cepillo.webp",
+    "title": "Hair brush 2",
+    "creator": "sh0dan",
+    "creator_url": "https://www.flickr.com/photos/12191709@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/12191709@N00/92782973",
+    "source": "flickr"
+  },
+  "flequillo": {
+    "src": "assets/img/flequillo.webp",
+    "title": "new haircut",
+    "creator": "c_pichler",
+    "creator_url": "https://www.flickr.com/photos/30839999@N06",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/30839999@N06/3460102305",
+    "source": "flickr"
+  },
+  "color-cobre": {
+    "src": "assets/img/color-cobre.webp",
+    "title": "hair colors",
+    "creator": "Mario A. P.",
+    "creator_url": "https://www.flickr.com/photos/99058495@N00",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/99058495@N00/49812346348",
+    "source": "flickr"
+  },
+  "barberia": {
+    "src": "assets/img/barberia.webp",
+    "title": "barber shop",
+    "creator": "smoorenburg",
+    "creator_url": "https://www.flickr.com/photos/79908182@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/79908182@N00/479325574",
+    "source": "flickr"
+  },
+  "textura": {
+    "src": "assets/img/textura.webp",
+    "title": "Thick Hair",
+    "creator": "Tobyotter",
+    "creator_url": "https://www.flickr.com/photos/78428166@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/78428166@N00/8395989859",
+    "source": "flickr"
+  }
+}

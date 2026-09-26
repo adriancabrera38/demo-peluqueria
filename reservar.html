@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reservar cita · ONDA Peluquería · Gràcia</title>
+  <meta name="description" content="Reserva tu cita en ONDA en un minuto: elige servicio, estilista, día y hora. (Web de demostración.)">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f6e3da">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20260927">
+  <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__KB_OK)document.documentElement.classList.add("reveal-all");},3500);</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="demo-bar" role="note"><span><b>Proyecto de demostración</b><span class="demo-long"> · ONDA es una peluquería ficticia creada como ejemplo de diseño web. Precios, equipo y citas no son reales.</span></span></div>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="index.html" aria-label="ONDA, inicio"><svg viewBox="0 0 34 20" aria-hidden="true"><path d="M2 10c4-7 8-7 12 0s8 7 12 0 6-6 6-6" fill="none" stroke="#ff6a4d" stroke-width="3.4" stroke-linecap="round"/></svg>onda</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios y precios</a>
+        <a href="reservar.html" aria-current="page">Reservar</a>
+      </nav>
+      <div class="nav-right">
+        <a class="btn btn-small" href="reservar.html">Pedir cita</a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="menu" id="menu" aria-hidden="true" aria-label="Menú móvil">
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios y precios</a>
+    <a href="reservar.html">Reservar</a>
+    <a class="btn" href="reservar.html">Pedir cita online</a>
+  </nav>
+
+  <main id="main">
+    <header class="page-head">
+      <span class="goo g1" aria-hidden="true" data-float="0.1"></span><span class="goo g2" aria-hidden="true" data-float="-0.14"></span>
+      <div class="wrap">
+        <span class="eyebrow">en un minuto</span>
+        <h1>Reserva <em>tu cita.</em></h1>
+        <p class="lead">Cuatro pasos y listo. Te confirmamos al momento y te mandamos un recordatorio el día antes.</p>
+      </div>
+    </header>
+    <div class="wrap booking" style="padding-bottom:clamp(56px,8vw,110px)">
+      <div class="wiz" data-booking>
+        <ol class="steps-bar" aria-label="Pasos">
+          <li class="current">Servicio</li><li>Estilista</li><li>Día y hora</li><li>Tus datos</li>
+        </ol>
+
+        <section class="step-panel" aria-labelledby="p1">
+          <h2 id="p1">¿Qué te hacemos?</h2>
+          <p class="muted">Puedes elegir varios servicios; sumamos precio y duración.</p>
+          <div class="opt-grid services-opts">
+            <div class="opt"><input type="checkbox" id="s-corte-mujer" name="servicio" value="corte-mujer"><label for="s-corte-mujer"><b>Corte y peinado</b><small>Lavado, corte y secado · 1 h</small><span class="pr">38 €</span></label></div>
+            <div class="opt"><input type="checkbox" id="s-corte-hombre" name="servicio" value="corte-hombre"><label for="s-corte-hombre"><b>Corte de caballero</b><small>Tijera o máquina, con lavado · 30 min</small><span class="pr">22 €</span></label></div>
+            <div class="opt"><input type="checkbox" id="s-rizos" name="servicio" value="rizos"><label for="s-rizos"><b>Corte de rizos en seco</b><small>Método rizo a rizo · 1 h 15 min</small><span class="pr">48 €</span></label></div>
+            <div class="opt"><input type="checkbox" id="s-color" name="servicio" value="color"><label for="s-color"><b>Color raíz</b><small>Tinte vegano sin amoniaco · 1 h 30 min</small><span class="pr">42 €</span></label></div>
+            <div class="opt"><input type="checkbox" id="s-mechas" name="servicio" value="mechas"><label for="s-mechas"><b>Balayage</b><small>Aclarado a mano alzada · 2 h 30 min</small><span class="pr">95 €</span></label></div>
+            <div class="opt"><input type="checkbox" id="s-tratamiento" name="servicio" value="tratamiento"><label for="s-tratamiento"><b>Tratamiento hidratante</b><small>Mascarilla y masaje craneal · 30 min</small><span class="pr">28 €</span></label></div>
+            <div class="opt"><input type="checkbox" id="s-infantil" name="servicio" value="infantil"><label for="s-infantil"><b>Corte infantil</b><small>Hasta 10 años · 30 min</small><span class="pr">16 €</span></label></div>
+          </div>
+        </section>
+
+        <section class="step-panel" aria-labelledby="p2" hidden>
+          <h2 id="p2">¿Con quién?</h2>
+          <p class="muted">Cada estilista trabaja unos días concretos; el calendario se ajusta solo.</p>
+          <div class="opt-grid stylists">
+            <div class="opt"><input type="radio" id="e-cualquiera" name="estilista" value="cualquiera" checked><label for="e-cualquiera"><span class="av" aria-hidden="true">✦</span><b>Sin preferencia</b><small>El primer hueco libre</small></label></div>
+            <div class="opt"><input type="radio" id="e-nuria" name="estilista" value="nuria"><label for="e-nuria"><span class="av" aria-hidden="true">N</span><b>Núria</b><small>Directora · color · +10 €</small></label></div>
+            <div class="opt"><input type="radio" id="e-jan" name="estilista" value="jan"><label for="e-jan"><span class="av" aria-hidden="true">J</span><b>Jan</b><small>Cortes y caballero</small></label></div>
+            <div class="opt"><input type="radio" id="e-aisha" name="estilista" value="aisha"><label for="e-aisha"><span class="av" aria-hidden="true">A</span><b>Aisha</b><small>Rizos y texturas</small></label></div>
+            <div class="opt"><input type="radio" id="e-pol" name="estilista" value="pol"><label for="e-pol"><span class="av" aria-hidden="true">P</span><b>Pol</b><small>Balayage · +5 €</small></label></div>
+          </div>
+        </section>
+
+        <section class="step-panel" aria-labelledby="p3" hidden>
+          <h2 id="p3">¿Cuándo?</h2>
+          <div class="cal-head"><b data-cal-label>—</b><div class="cal-nav"><button type="button" data-cal-prev aria-label="Mes anterior">‹</button><button type="button" data-cal-next aria-label="Mes siguiente">›</button></div></div>
+          <div class="cal" role="group" aria-label="Calendario"></div>
+          <div class="times" role="group" aria-label="Horas disponibles" aria-live="polite"></div>
+        </section>
+
+        <section class="step-panel" aria-labelledby="p4" hidden>
+          <h2 id="p4">Tus datos</h2>
+          <div class="form-row">
+            <div class="field"><label for="r-nombre">Nombre</label><input id="r-nombre" autocomplete="name" required><span class="err"></span></div>
+            <div class="field"><label for="r-tel">Teléfono</label><input id="r-tel" type="tel" autocomplete="tel" required><span class="err"></span></div>
+          </div>
+          <div class="field"><label for="r-email">Email</label><input id="r-email" type="email" autocomplete="email" required><span class="err"></span></div>
+          <div class="field"><label for="r-notas">¿Algo que debamos saber? <span class="muted">(opcional)</span></label><textarea id="r-notas" placeholder="Por ejemplo: quiero cortar bastante, o traigo foto de referencia"></textarea></div>
+          <p class="muted" style="font-size:14px">Demo: no se envía ni se guarda nada.</p>
+        </section>
+
+        <section class="step-panel done-panel" aria-labelledby="p5" hidden>
+          <div class="blob"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div>
+          <h2 id="p5">¡Reservado, <span data-done-name></span>!</h2>
+          <p class="lead">Tienes el resumen al lado. Te enviaríamos la confirmación por email y un recordatorio el día antes.</p>
+          <p class="muted" style="font-size:14px">Esto es una demostración: la cita no se ha guardado.</p>
+          <a class="btn btn-soft" href="index.html">Volver al inicio</a>
+        </section>
+
+        <p class="wiz-err" role="alert"></p>
+        <div class="wiz-nav">
+          <button class="btn btn-soft" type="button" data-back>← Atrás</button>
+          <button class="btn" type="button" data-next><span data-next-label>Continuar</span> →</button>
+        </div>
+      </div>
+
+      <div class="info">
+        <aside class="summary" data-summary aria-live="polite" aria-label="Resumen de tu cita">
+          <span class="goo" aria-hidden="true"></span>
+          <span class="hand">tu cita</span>
+          <h2>Resumen</h2>
+          <dl>
+            <div><dt>Servicios</dt><dd data-s-services>—</dd></div>
+            <div><dt>Estilista</dt><dd data-s-stylist>Sin preferencia</dd></div>
+            <div><dt>Día y hora</dt><dd data-s-when>—</dd></div>
+            <div><dt>Duración</dt><dd data-s-dur>—</dd></div>
+          </dl>
+          <div class="total"><span>Total</span><b data-s-total>0 €</b></div>
+          <small data-s-extra style="color:#e8c9d6"></small>
+        </aside>
+        <div class="info-card">
+          <h2>Horario</h2>
+          <ul class="hours">
+            <li data-days="2 3"><span>Martes y miércoles</span><span>10:00–20:00</span></li>
+            <li data-days="4 5"><span>Jueves y viernes</span><span>10:00–21:00</span></li>
+            <li data-days="6"><span>Sábado</span><span>9:00–15:00</span></li>
+            <li data-days="0 1"><span>Domingo y lunes</span><span>Cerrado</span></li>
+          </ul>
+          <p class="muted" style="font-size:14px;margin-top:12px">Carrer de l'Onda, 7 · Gràcia (dirección ficticia)<br>+34 000 000 000 · hola@onda.example</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="wave" aria-hidden="true"><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631"/></svg><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631" transform="translate(0 12)"/></svg></div>
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot-top">
+        <p class="foot-big">onda<span>tu pelo, tu ritmo</span></p>
+        <a class="btn" href="reservar.html" style="background:#ff6a4d">Pedir cita online</a>
+      </div>
+      <div class="foot-grid">
+        <div><h2>Dónde</h2><p>Carrer de l'Onda, 7<br>08000 Barcelona · Gràcia</p><p style="font-size:13px;opacity:.7;margin-top:4px">Dirección ficticia</p></div>
+        <div><h2>Horario</h2><ul><li>Mar–Mié · 10:00–20:00</li><li>Jue–Vie · 10:00–21:00</li><li>Sáb · 9:00–15:00</li><li>Dom–Lun · cerrado</li></ul></div>
+        <div><h2>Contacto</h2><ul><li>+34 000 000 000</li><li>hola@onda.example</li></ul></div>
+        <div><h2>Salón</h2><ul><li><a href="servicios.html">Servicios y precios</a></li><li><a href="reservar.html">Reservar cita</a></li><li><a href="creditos.html">Créditos</a></li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© 2026 ONDA · Peluquería ficticia de demostración</span><span>Fotos bajo licencias Creative Commons · <a href="creditos.html">Créditos fotográficos</a></span></div>
+    </div>
+  </footer>
+  <script defer src="lib/gsap.min.js?v=20260927"></script>
+  <script defer src="lib/ScrollTrigger.min.js?v=20260927"></script>
+  <script defer src="lib/manifest.js?v=20260927"></script>
+  <script defer src="main.js?v=20260927"></script>
+</body>
+</html>
