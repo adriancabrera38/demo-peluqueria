@@ -4,25 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ONDA · Peluquería en Gràcia, Barcelona</title>
-  <meta name="description" content="Peluquería en Gràcia, Barcelona: cortes, especialistas en rizos, color vegano y balayage. Reserva tu cita online en un minuto. (Web de demostración.)">
+  <meta name="description" content="Peluquería en Gràcia, Barcelona: corte, color, mechas y especialistas en rizos. Reserva tu cita online. (Web de demostración.)">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#f6e3da">
+  <meta name="theme-color" content="#f6f2ec">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600&family=Figtree:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="styles.css?v=20260927">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20261018">
+  <link rel="stylesheet" href="pro.css?v=20261018">
   <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__KB_OK)document.documentElement.classList.add("reveal-all");},3500);</script>
 </head>
-<body>
+<body class="pro">
   <a class="skip-link" href="#main">Saltar al contenido</a>
   <div class="demo-bar" role="note"><span><b>Proyecto de demostración</b><span class="demo-long"> · ONDA es una peluquería ficticia creada como ejemplo de diseño web. Precios, equipo y citas no son reales.</span></span></div>
   <header class="nav">
     <div class="nav-inner">
-      <a class="logo" href="index.html" aria-label="ONDA, inicio"><svg viewBox="0 0 34 20" aria-hidden="true"><path d="M2 10c4-7 8-7 12 0s8 7 12 0 6-6 6-6" fill="none" stroke="#ff6a4d" stroke-width="3.4" stroke-linecap="round"/></svg>onda</a>
+      <a class="logo" href="index.html" aria-label="ONDA, inicio">ONDA<small>peluquería · gràcia</small></a>
       <nav class="nav-links" aria-label="Principal">
         <a href="index.html" aria-current="page">Inicio</a>
         <a href="servicios.html">Servicios y precios</a>
+        <a href="#salon">El salón</a>
         <a href="reservar.html">Reservar</a>
       </nav>
       <div class="nav-right">
@@ -34,157 +36,168 @@
   <nav class="menu" id="menu" aria-hidden="true" aria-label="Menú móvil">
     <a href="index.html">Inicio</a>
     <a href="servicios.html">Servicios y precios</a>
+    <a href="#salon">El salón</a>
     <a href="reservar.html">Reservar</a>
     <a class="btn" href="reservar.html">Pedir cita online</a>
   </nav>
 
   <main id="main">
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <span class="eyebrow" data-in>peluquería de barrio en Gràcia</span>
-          <h1 data-in style="--d:90ms">Tu pelo, <span class="hand">a su</span> ritmo.</h1>
-          <p class="lead" data-in style="--d:180ms">Cortes que crecen bien, rizos que se definen solos y color que respeta tu pelo. Sin prisas, con café y buena música.</p>
-          <div class="hero-actions" data-in style="--d:260ms">
-            <a class="btn" href="reservar.html">Reservar cita</a>
-            <a class="btn btn-soft" href="servicios.html">Ver precios</a>
-          </div>
-          <div class="hero-meta" data-in style="--d:340ms">
-            <span data-open-status><i></i><span class="label">Martes a sábado</span></span>
-            <span><i></i>Productos veganos</span>
-          </div>
+    <section class="p-hero">
+      <div class="p-hero-copy">
+        <p class="p-kicker" data-reveal>Peluquería en Gràcia · Barcelona</p>
+        <h1 data-reveal style="--d:80ms">Tu pelo,<br><em>a su ritmo.</em></h1>
+        <p class="p-lead" data-reveal style="--d:160ms">Corte, color y cuidado del rizo en un salón tranquilo, con tiempo para escucharte. Productos veganos y sin amoniaco.</p>
+        <div class="p-actions" data-reveal style="--d:240ms">
+          <a class="btn" href="reservar.html">Reservar cita</a>
+          <a class="p-link" href="servicios.html">Ver servicios y precios</a>
         </div>
-        <div class="hero-visual" data-in style="--d:120ms">
-          <span class="goo g1" data-float="0.12"></span>
-          <span class="goo g2" data-float="-0.1"></span>
-          <div class="blob"><img src="assets/img/hero-rizos.webp" alt="Retrato de una mujer con una melena rizada pelirroja" width="1024" height="923" loading="eager" fetchpriority="high" decoding="async"></div>
-          <div class="sticker" data-in style="--d:900ms"><div><b>4,9★</b><span>312 reseñas</span></div></div>
+        <div class="p-proof" data-reveal style="--d:320ms">
+          <span class="p-stars">★★★★★</span><span><b>4,9</b> · 312 reseñas en Google</span>
+          <span class="p-sep"></span>
+          <span data-open-status><i></i><span class="label">Martes a sábado</span></span>
         </div>
+      </div>
+      <figure class="p-hero-img">
+        <img src="assets/img/u-hero.webp" alt="Mujer con melena rizada recién peinada" width="1600" height="2123" loading="eager" fetchpriority="high">
+      </figure>
+    </section>
+
+    <div class="p-strip">
+      <div class="p-strip-in">
+        <span>Desde 2016 en Gràcia</span><span>Especialistas en rizo y afro</span><span>Color vegano sin amoniaco</span><span>Reserva online 24 h</span>
+      </div>
+    </div>
+
+    <section class="p-sec" aria-labelledby="svc-t">
+      <div class="p-wrap p-svc">
+        <div class="p-svc-head">
+          <p class="p-kicker" data-reveal>Servicios</p>
+          <h2 id="svc-t" data-reveal style="--d:80ms">Lo que hacemos,<br><em>y cuánto cuesta.</em></h2>
+          <p data-reveal style="--d:140ms">Precios para pelo corto y medio. Antes de cualquier cambio grande te hacemos una consulta gratuita de diez minutos.</p>
+          <a class="p-link" href="servicios.html" data-reveal style="--d:200ms">Ver la carta completa</a>
+        </div>
+        <ul class="p-prices" data-reveal style="--d:120ms">
+          <li><span>Corte y peinado</span><i></i><b>38 €</b></li>
+          <li><span>Corte de rizos en seco</span><i></i><b>48 €</b></li>
+          <li><span>Color sin amoniaco</span><i></i><b>desde 42 €</b></li>
+          <li><span>Balayage</span><i></i><b>95 €</b></li>
+          <li><span>Tratamiento hidratante con masaje</span><i></i><b>28 €</b></li>
+          <li><span>Corte de caballero</span><i></i><b>22 €</b></li>
+          <li><span>Peinado de novia (con prueba)</span><i></i><b>desde 180 €</b></li>
+          <li><span>Corte infantil</span><i></i><b>16 €</b></li>
+        </ul>
       </div>
     </section>
 
-    <div class="words" aria-hidden="true"><div class="words-track"><span>Cortes</span> <span>Rizos</span> <span>Balayage</span> <span>Color vegano</span> <span>Recogidos</span> <span>Tratamientos</span> <span>Barbería</span> <span>Cortes</span> <span>Rizos</span> <span>Balayage</span> <span>Color vegano</span> <span>Recogidos</span> <span>Tratamientos</span> <span>Barbería</span></div></div>
-
-    <section class="section" aria-labelledby="svc-t">
-      <div class="wrap">
-        <div class="head">
-          <span class="eyebrow" data-reveal>lo que hacemos</span>
-          <h2 id="svc-t" data-reveal style="--d:80ms">Todo lo que tu pelo <em>necesita.</em></h2>
-          <p class="lead" data-reveal style="--d:140ms">Seis especialidades y un equipo de cuatro. Si no sabes qué pedir, empieza por una consulta gratuita de diez minutos.</p>
-        </div>
-        <div class="svc-grid">
-          <article class="svc" data-reveal style="--d:0ms">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12"/></svg></span>
-            <h3>Cortes</h3>
-            <p>Cortes pensados para tu tipo de pelo y para cómo te peinas de verdad por las mañanas.</p>
-            <div class="foot"><b>desde 22 €</b><a href="reservar.html?servicio=corte-mujer">Reservar →</a></div>
-          </article>
-          <article class="svc feature" data-reveal style="--d:90ms">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21c-4 0-6-3-6-6 0-4 4-5 6-3 2 2 0 5-2 4M12 3c4 0 7 3 7 7"/></svg></span>
-            <h3>Rizos</h3>
-            <p>Corte en seco rizo a rizo y rutina de cuidado para que tus rizos se definan solos.</p>
-            <div class="foot"><b>desde 48 €</b><a href="reservar.html?servicio=rizos">Reservar →</a></div>
-          </article>
-          <article class="svc" data-reveal style="--d:180ms">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></span>
-            <h3>Color</h3>
-            <p>Tintes veganos sin amoniaco, balayage a mano alzada y colores fantasía.</p>
-            <div class="foot"><b>desde 42 €</b><a href="reservar.html?servicio=color">Reservar →</a></div>
-          </article>
-          <article class="svc" data-reveal style="--d:0ms">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14zM5 19l7-7"/></svg></span>
-            <h3>Tratamientos</h3>
-            <p>Hidratación profunda, keratina vegetal y masaje craneal con aceites.</p>
-            <div class="foot"><b>desde 28 €</b><a href="reservar.html?servicio=tratamiento">Reservar →</a></div>
-          </article>
-          <article class="svc" data-reveal style="--d:90ms">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg></span>
-            <h3>Novias y eventos</h3>
-            <p>Prueba previa, recogidos y peinados que aguantan toda la fiesta.</p>
-            <div class="foot"><b>desde 85 €</b><a href="reservar.html?servicio=mechas">Reservar →</a></div>
-          </article>
-          <article class="svc" data-reveal style="--d:180ms">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 14c1 1.4 2.2 2 3.5 2s2.5-.6 3.5-2M9 10h.01M15 10h.01"/></svg></span>
-            <h3>Peques</h3>
-            <p>Cortes infantiles tranquilos, con cuento incluido si hace falta.</p>
-            <div class="foot"><b>desde 16 €</b><a href="reservar.html?servicio=infantil">Reservar →</a></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#fbf3ee"/></svg><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#fbf3ee" transform="translate(0 12)"/></svg></div>
-    <section class="section" style="background:var(--sand);padding-top:clamp(30px,5vw,60px)" aria-labelledby="story-t">
-      <div class="wrap story">
-        <div class="story-media" data-reveal>
-          <div class="blob main b2"><img src="assets/img/local-plantas.webp" alt="Interior del salón con helechos colgando y sillones junto a los espejos" width="1024" height="768" loading="lazy" decoding="async"></div>
-          <div class="blob small b3"><img src="assets/img/sillones.webp" alt="Dos sillones blancos de peluquería frente a espejos redondeados" width="1024" height="683" loading="lazy" decoding="async"></div>
+    <section class="p-sec p-alt" aria-labelledby="cambio-t">
+      <div class="p-wrap p-cambio">
+        <div class="ba" data-ba data-reveal>
+          <img src="assets/img/u-mechas.webp" alt="Después: melena con mechas balayage luminosas" width="1600" height="1068" loading="lazy">
+          <div class="ba-before" data-ba-before><img src="assets/img/u-mechas-antes.webp" alt="Antes: la misma melena con el color apagado" width="1600" height="1068" loading="lazy"></div>
+          <span class="ba-tag ba-tag-a">Antes</span><span class="ba-tag ba-tag-d">Después</span>
+          <div class="ba-handle" data-ba-handle><span></span></div>
+          <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Comparar antes y después" data-ba-range>
         </div>
         <div>
-          <span class="eyebrow" data-reveal>el salón</span>
-          <h2 id="story-t" data-reveal style="--d:80ms">Un salón con plantas, luz y <em>tiempo.</em></h2>
-          <p data-reveal style="--d:140ms">Abrimos en 2016 en un antiguo taller de Gràcia. Cuatro sillones, un lavacabezas con vistas al patio y ninguna prisa: reservamos el tiempo que de verdad necesita cada servicio.</p>
-          <p data-reveal style="--d:180ms">Trabajamos con marcas veganas y recargables, y reciclamos el pelo cortado para fabricar filtros de aceite para el mar.</p>
-          <ul class="checks" data-reveal style="--d:220ms">
-            <li>Consulta gratuita antes de cualquier cambio grande</li>
-            <li>Tintes sin amoniaco y productos veganos</li>
-            <li>Especialistas en pelo rizado y afro</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <div class="wave" aria-hidden="true" style="transform:scaleY(-1)"><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#fbf3ee"/></svg><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#fbf3ee" transform="translate(0 12)"/></svg></div>
-
-    <section class="section" aria-labelledby="rev-t">
-      <div class="wrap">
-        <div class="head center">
-          <span class="eyebrow" data-reveal>lo que dicen</span>
-          <h2 id="rev-t" data-reveal style="--d:80ms">Salen con otra <em>cara.</em></h2>
-        </div>
-        <div class="reviews">
-          <blockquote class="review" data-reveal><span class="stars" aria-label="5 de 5">★★★★★</span><p>«Por fin alguien que sabe cortar rizos. Aisha me explicó cómo peinarlos en casa y ha cambiado todo.»</p><footer><b>Clara R.</b> · Corte de rizos</footer></blockquote>
-          <blockquote class="review" data-reveal style="--d:100ms"><span class="stars" aria-label="5 de 5">★★★★★</span><p>«El balayage de Pol es precioso y, tres meses después, sigue creciendo bonito.»</p><footer><b>Marta V.</b> · Balayage</footer></blockquote>
-          <blockquote class="review" data-reveal style="--d:200ms"><span class="stars" aria-label="5 de 5">★★★★★</span><p>«Reservo online en un minuto, llego y me atienden a la hora. Así da gusto.»</p><footer><b>Oriol M.</b> · Corte de caballero</footer></blockquote>
+          <p class="p-kicker" data-reveal>Color</p>
+          <h2 id="cambio-t" data-reveal style="--d:80ms">Mechas que crecen <em>bonitas.</em></h2>
+          <p data-reveal style="--d:140ms">Trabajamos el color a mano alzada y sin marcar la raíz, para que a los tres meses siga quedando bien y no dependas de retocar cada cuatro semanas.</p>
+          <p class="p-note" data-reveal style="--d:180ms">Desliza la imagen para comparar.</p>
+          <a class="btn btn-line" href="reservar.html?servicio=color" data-reveal style="--d:220ms">Reservar color</a>
         </div>
       </div>
     </section>
 
-    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631"/></svg><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631" transform="translate(0 12)"/></svg></div>
-    <section class="section team-band" style="padding-top:clamp(30px,5vw,60px)" aria-labelledby="team-t">
-      <div class="wrap">
-        <div class="head">
-          <span class="eyebrow" data-reveal style="color:#ffb3a3">el equipo</span>
-          <h2 id="team-t" data-reveal style="--d:80ms">Cuatro manos <em>(bueno, ocho).</em></h2>
+    <section class="p-sec" id="salon" aria-labelledby="salon-t">
+      <div class="p-wrap p-salon">
+        <div>
+          <p class="p-kicker" data-reveal>El salón</p>
+          <h2 id="salon-t" data-reveal style="--d:80ms">Una cita sin <em>prisas.</em></h2>
+          <ol class="p-steps">
+            <li data-reveal><b>01</b><div><h3>Hablamos primero</h3><p>Un café y cinco minutos para entender qué quieres y cómo te peinas en casa.</p></div></li>
+            <li data-reveal style="--d:80ms"><b>02</b><div><h3>Lavado con masaje</h3><p>Masaje craneal con aceites en un lavacabezas con vistas al patio.</p></div></li>
+            <li data-reveal style="--d:160ms"><b>03</b><div><h3>El tiempo que haga falta</h3><p>Reservamos para cada servicio el tiempo real que necesita. Nadie espera.</p></div></li>
+            <li data-reveal style="--d:240ms"><b>04</b><div><h3>Te explicamos cómo mantenerlo</h3><p>Sales sabiendo qué productos usar y cómo repetir el peinado tú sola.</p></div></li>
+          </ol>
         </div>
-        <div class="team">
-          <div class="member" data-reveal><span class="av">N</span><div><b>Núria</b><span>Fundadora y directora</span><span class="spec">color y balayage</span></div></div>
-          <div class="member" data-reveal style="--d:80ms"><span class="av">J</span><div><b>Jan</b><span>Estilista</span><span class="spec">cortes y caballero</span></div></div>
-          <div class="member" data-reveal style="--d:160ms"><span class="av">A</span><div><b>Aisha</b><span>Estilista</span><span class="spec">rizos y afro</span></div></div>
-          <div class="member" data-reveal style="--d:240ms"><span class="av">P</span><div><b>Pol</b><span>Colorista</span><span class="spec">mechas a mano alzada</span></div></div>
+        <div class="p-salon-img" data-reveal>
+          <img src="assets/img/u-salon.webp" alt="Interior luminoso del salón" width="1600" height="2400" loading="lazy">
+          <img class="p-salon-img2" src="assets/img/u-secado.webp" alt="Estilista secando el pelo a una clienta" width="1600" height="1068" loading="lazy">
         </div>
       </div>
     </section>
-    <div class="wave" aria-hidden="true" style="transform:scaleY(-1)"><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631"/></svg><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631" transform="translate(0 12)"/></svg></div>
 
-    <section class="section">
-      <div class="wrap">
-        <div class="cta" data-reveal>
-          <span class="goo g1" aria-hidden="true"></span><span class="goo g2" aria-hidden="true"></span>
-          <span class="eyebrow" style="color:var(--plum)">en un minuto</span>
-          <h2>Reserva sin llamar.</h2>
-          <p>Elige servicio, estilista, día y hora. Te confirmamos al momento y te recordamos la cita el día antes.</p>
-          <a class="btn" href="reservar.html">Reservar cita online</a>
+    <section class="p-sec p-alt" aria-labelledby="rev-t">
+      <div class="p-wrap">
+        <div class="p-rev-head">
+          <div><p class="p-kicker" data-reveal>Opiniones</p><h2 id="rev-t" data-reveal style="--d:80ms">Lo que dicen <em>nuestras clientas.</em></h2></div>
+          <div class="p-score" data-reveal><b>4,9</b><span class="p-stars">★★★★★</span><small>312 reseñas en Google</small></div>
+        </div>
+        <div class="p-reviews">
+          <blockquote data-reveal><p>«Por fin alguien que sabe cortar rizos. Me explicó cómo peinarlos en casa y ha cambiado todo.»</p><footer>Clara R. · Corte de rizos</footer></blockquote>
+          <blockquote data-reveal style="--d:80ms"><p>«El balayage es precioso y, tres meses después, sigue creciendo bonito.»</p><footer>Marta V. · Mechas</footer></blockquote>
+          <blockquote data-reveal style="--d:160ms"><p>«Vengo desde hace años. El masaje del lavado ya vale la visita, y el color siempre me lo clavan.»</p><footer>Montse A. · Color y tratamiento</footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-sec" aria-labelledby="gal-t">
+      <div class="p-wrap">
+        <div class="p-gal-head">
+          <div><p class="p-kicker" data-reveal>Trabajos recientes</p><h2 id="gal-t" data-reveal style="--d:80ms">Recién salidos <em>del sillón.</em></h2></div>
+        </div>
+        <div class="p-gallery">
+          <figure class="g1" data-reveal><img src="assets/img/u-rizo-sonrisa.webp" alt="Clienta sonriente con rizos definidos" width="1600" height="2293" loading="lazy"><figcaption>Rizo natural</figcaption></figure>
+          <figure class="g2" data-reveal style="--d:60ms"><img src="assets/img/u-mono.webp" alt="Peluquera haciendo un recogido" width="1600" height="2400" loading="lazy"><figcaption>Recogidos</figcaption></figure>
+          <figure class="g3" data-reveal style="--d:120ms"><img src="assets/img/u-corte.webp" alt="Corte a tijera de una melena" width="1600" height="2000" loading="lazy"><figcaption>Corte a tijera</figcaption></figure>
+          <figure class="g4" data-reveal><img src="assets/img/u-ondas.webp" alt="Ondas hechas con tenacilla" width="1600" height="1067" loading="lazy"><figcaption>Ondas</figcaption></figure>
+          <figure class="g5" data-reveal style="--d:60ms"><img src="assets/img/u-rizos-cerca.webp" alt="Detalle de rizos castaños con brillo" width="1600" height="2847" loading="lazy"><figcaption>Brillo y forma</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-sec p-alt" aria-labelledby="team-t">
+      <div class="p-wrap p-team">
+        <div><p class="p-kicker" data-reveal>Equipo</p><h2 id="team-t" data-reveal style="--d:80ms">Cuatro estilistas, <em>cada uno en lo suyo.</em></h2></div>
+        <ul class="p-team-list">
+          <li data-reveal><b>Núria</b><span>Fundadora · color y balayage</span></li>
+          <li data-reveal style="--d:60ms"><b>Jan</b><span>Corte de mujer y caballero</span></li>
+          <li data-reveal style="--d:120ms"><b>Aisha</b><span>Rizo y pelo afro</span></li>
+          <li data-reveal style="--d:180ms"><b>Pol</b><span>Mechas a mano alzada</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="p-cta" aria-labelledby="cta-t">
+      <img src="assets/img/u-interior.webp" alt="" width="1600" height="2845" loading="lazy">
+      <div class="p-cta-in">
+        <p class="p-kicker">Reserva online</p>
+        <h2 id="cta-t">Elige día y hora <em>en un minuto.</em></h2>
+        <p>Confirmación al momento y recordatorio el día antes. Y cada 10 visitas, la siguiente corre de nuestra cuenta.</p>
+        <a class="btn btn-light" href="reservar.html">Reservar cita</a>
+      </div>
+    </section>
+
+    <section class="p-sell" aria-labelledby="sell-t">
+      <div class="p-wrap p-sell-in">
+        <div>
+          <p class="p-kicker">¿Tienes una peluquería?</p>
+          <h2 id="sell-t">Esta web podría ser <em>la tuya.</em></h2>
+          <p>ONDA es un ejemplo. Diseño webs como esta para salones reales, con tus fotos, tus precios y reserva online.</p>
+        </div>
+        <div class="p-sell-cta">
+          <a class="btn" href="https://wa.me/34675939786?text=Hola%20Adri%C3%A1n%2C%20he%20visto%20la%20web%20de%20ONDA%20y%20me%20interesa%20una%20para%20mi%20peluquer%C3%ADa" target="_blank" rel="noopener">Quiero una web así</a>
+          <a class="p-link" href="https://adrianwebdesign.es" target="_blank" rel="noopener">adrianwebdesign.es</a>
         </div>
       </div>
     </section>
   </main>
 
-  <div class="wave" aria-hidden="true"><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631"/></svg><svg viewBox="0 0 1800 100" preserveAspectRatio="none"><path d="M0 50 C 150 10, 300 90, 450 50 S 750 10, 900 50 S 1200 90, 1350 50 S 1650 10, 1800 50 V100 H0 Z" fill="#3a1631" transform="translate(0 12)"/></svg></div>
   <footer class="footer">
     <div class="wrap">
       <div class="foot-top">
-        <p class="foot-big">onda<span>tu pelo, tu ritmo</span></p>
-        <a class="btn" href="reservar.html" style="background:#ff6a4d">Pedir cita online</a>
+        <p class="foot-big">ONDA<span>peluquería · gràcia</span></p>
+        <a class="btn btn-light" href="reservar.html">Pedir cita online</a>
       </div>
       <div class="foot-grid">
         <div><h2>Dónde</h2><p>Carrer de l'Onda, 7<br>08000 Barcelona · Gràcia</p><p style="font-size:13px;opacity:.7;margin-top:4px">Dirección ficticia</p></div>
@@ -195,9 +208,8 @@
       <div class="foot-bottom"><span>© 2026 ONDA · Peluquería ficticia de demostración</span><span>Fotos bajo licencias Creative Commons · <a href="creditos.html">Créditos fotográficos</a></span></div>
     </div>
   </footer>
-  <script defer src="lib/gsap.min.js?v=20260927"></script>
-  <script defer src="lib/ScrollTrigger.min.js?v=20260927"></script>
   <script defer src="lib/manifest.js?v=20260927"></script>
   <script defer src="main.js?v=20260927"></script>
+  <script defer src="lib/extras.js?v=20261018"></script>
 </body>
 </html>
